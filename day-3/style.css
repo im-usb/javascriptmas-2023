@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #01092c, #3069d4);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+main {
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: block;
+}
+
+#divideForm {
+  width: 320px;
+  margin: 0 auto;
+}
+
+#divideForm > div {
+  width: 100%;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 90%;
+  margin: 0 0 20px;
+  text-align: left;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 0 20px;
+  outline: none;
+}
+
+#result {
+  border: 1px solid #01092c;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 197, 197);
+  background: transparent;
+  color: rgb(89, 255, 12);
+  font-size: 15px;
+  text-align: center;
+}
+
+#result::placeholder {
+  color: #fff;
+}
